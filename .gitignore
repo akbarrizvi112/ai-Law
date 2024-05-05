@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Build files
+dist/
+build/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+.tmp/
+tmp/
+
+# Local environmental configuration
+.env.local
+.env.development
+.env.production
+.env
+
+# Logs
+logs/
+
+# Coverage reports
+coverage/
+
+# Test output
+__tests__/
+*.spec.js
+*.test.js
+
+# Visual Studio Code swap files
+*.swp
+
+# Miscellaneous
+*.md # Optional: Ignore markdown files if you don't want them in version control
+*.txt # Optional: Ignore text files if you don't want them in version control

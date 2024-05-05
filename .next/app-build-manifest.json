@@ -1,0 +1,49 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/@modal/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/@modal/default.js"
+    ],
+    "/@signInModal/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/@signInModal/default.js"
+    ],
+    "/(app-screen)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(app-screen)/layout.css",
+      "static/chunks/app/(app-screen)/layout.js"
+    ],
+    "/(app-screen)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(app-screen)/loading.css",
+      "static/chunks/app/(app-screen)/loading.js"
+    ],
+    "/(app-screen)/library/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(app-screen)/library/page.css",
+      "static/chunks/app/(app-screen)/library/page.js"
+    ],
+    "/(app-screen)/library/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(app-screen)/library/layout.js"
+    ]
+  }
+}

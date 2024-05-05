@@ -1,0 +1,67 @@
+.groupContainer {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-width: 160px;
+  min-height: 160px;
+  max-width: 350px;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-radius: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.groupContainerFixed {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-width: 160px;
+  min-height: 160px;
+  max-width: 350px;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pdfDoc {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.pdfPage {
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.pdfPage canvas {
+  border-radius: 0.8rem;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.editDeleteBtn {
+  opacity: 0;
+  top: 5px;
+  right: 5px !important;
+  border-radius: 0.8rem;
+  background: var(--secondary-color);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.groupContainerMain:hover .editDeleteBtn {
+  opacity: 1;
+  pointer-events: all;
+  /* transition: all 0.3s ease; */
+}

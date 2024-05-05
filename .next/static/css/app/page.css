@@ -1,0 +1,122 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Button/Button.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Button_root__8nq_L {
+  cursor: pointer;
+  display: flex;
+  gap: 1.173rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  border-radius: 0.99rem;
+  width: 18.5rem;
+  height: 5.2rem;
+  font-size: 1.98rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.Button_contained__8WITm {
+  border: 1px solid transparent;
+  background: var(--primary-color);
+  color: white;
+}
+
+.Button_contained__8WITm:hover {
+  /* background: var(--text-primary-color); */
+  /* color: black; */
+  box-shadow: 4px 4px 10px var(--border-color);
+}
+
+.Button_outlined__BcLZw {
+  background: transparent;
+  border: 1px solid var(--border-color);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Header/Header.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Header_root__XaNpj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5.5rem;
+}
+
+.Header_root__XaNpj h1 {
+  font-size: 4rem;
+}
+
+.Header_icons__W97Dt {
+  display: flex;
+  gap: 1.2rem;
+  
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/page.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.page_main__GlU4n {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  position: relative;
+}
+
+.page_bgBubble__81XLt {
+  width: 96rem;
+  height: 56rem;
+  top: -20%;
+  z-index: -1;
+  position: absolute;
+}
+
+.page_mainHeading__D9uYU {
+  font-size: 9.6rem;
+  font-weight: 800;
+  line-height: 9rem;
+  letter-spacing: -0.025em;
+  color: var(--primary-color);
+  max-width: 109.7rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.page_description__86bsR {
+  margin-top: 2.9rem;
+  font-size: 2.4rem;
+  max-width: 74rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 3.7rem;
+}
+
+.page_btnsContainer__Wlkhl {
+  display: flex;
+  gap: 2.2rem;
+  margin-top: 4.7rem;
+}
+
+.page_btnsContainer__Wlkhl a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page_formatContainer__HVa7t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.8rem;
+}
+.page_formatHeading__OkH9r {
+  font-size: 2.4rem;
+}
+
+.page_chips__dq3_7 {
+  display: flex;
+  gap: 1.1rem;
+  margin-top: 1.8rem;
+}
+

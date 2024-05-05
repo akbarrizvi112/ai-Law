@@ -1,0 +1,317 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/(app-screen)/library/library.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.library_root__p62ny {
+}
+
+.library_mainContainer__jVuPP {
+  padding: 3rem;
+}
+
+.library_groupContainer__1n5Zf {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 1rem;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  place-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 0.8rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.library_pdfDoc__rtSKk {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.library_pdfPage__cIqnl {
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.library_pdfPage__cIqnl canvas {
+  border-radius: 0.8rem;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.library_addNew__sFUYr {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 160px;
+  height: 160px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+}
+
+.library_addNew__sFUYr span {
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: 4rem;
+  margin-top: -0.5rem;
+}
+
+.library_folder__ixjgG {
+  align-items: center;
+  padding: 1.4rem;
+}
+
+.library_editDeleteBtn__FDuAX {
+  opacity: 0;
+  pointer-events: none;
+  top: 5px;
+  right: 5px !important;
+  border-radius: 0.8rem;
+  background: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.library_folderContainer__PW2sZ:hover .library_editDeleteBtn__FDuAX {
+  opacity: 1;
+  pointer-events: all;
+  /* transition: all 0.3s ease; */
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/AddDocumentsDialog/AddDocumentsDialog.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+.AddDocumentsDialog_dropzone__y2YZR {
+  cursor: pointer;
+  border: 3px dashed #eee;
+  margin-top: 2.3rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 3rem 1rem;
+  background: var(--secondary-color);
+}
+
+.AddDocumentsDialog_createBtn__qQV61 {
+  /* width: 100%; */
+  padding: 1rem 2.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--primary-color);
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.AddDocumentsDialog_createBtn__qQV61:disabled {
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.5);
+  cursor: auto;
+}
+
+.AddDocumentsDialog_progressContainer__1erzj {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.AddDocumentsDialog_progress__lWMks {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.AddDocumentsDialog_progress__lWMks p {
+  font-size: 1.6rem;
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/AddFolderDialog/AddFolderDialog.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
+.AddFolderDialog_createBtn__2rH_V {
+  /* width: 100%; */
+  padding: 1rem 2.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--primary-color);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/AddNew/AddNew.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.AddNew_addNew__1jDGw {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 160px;
+  background: rgba(229, 240, 255, 0.1);
+  height: 160px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.AddNew_addNew__1jDGw:hover {
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.AddNew_addNew__1jDGw span {
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: 4rem;
+  margin-top: -0.5rem;
+}
+
+.AddNew_add__THQRy {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 160px;
+  background: rgba(229, 240, 255, 0.1);
+  height: 160px;
+  border: 4px dashed var(--secondary-color);
+  border-radius: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.AddNew_add__THQRy span {
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: 8rem;
+  margin-top: -0.5rem;
+}
+
+.AddNew_closeBtn__7yNX1 {
+  width: 3.6rem;
+  height: 3.6rem;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  position: absolute !important;
+  font-size: 1.2rem;
+  /* background: transparent; */
+  border: none;
+  right: -2%;
+  top: 0%;
+}
+
+.AddNew_addContainer__7lmYN:hover .AddNew_add__THQRy {
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/EditDeleteButtons/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_updateBtn__gsLhF,
+.styles_deleteBtn__fH9R6,
+.styles_cancelBtn__sckqa {
+  /* width: 100%; */
+  padding: 1rem 2.4rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--primary-color);
+  border: 2px solid transparent;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.styles_cancelBtn__sckqa {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/GroupThumbnail/GroupThumbnail.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.GroupThumbnail_groupContainer__XujZU {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-width: 160px;
+  min-height: 160px;
+  max-width: 350px;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border-radius: 0.8rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.GroupThumbnail_groupContainerFixed__XEDNy {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  min-width: 160px;
+  min-height: 160px;
+  max-width: 350px;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 0.8rem;
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.GroupThumbnail_pdfDoc__ad6Sq {
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.GroupThumbnail_pdfPage__B0qCx {
+  border-radius: 0.8rem;
+  width: 100%;
+  height: 100%;
+}
+
+.GroupThumbnail_pdfPage__B0qCx canvas {
+  border-radius: 0.8rem;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.GroupThumbnail_editDeleteBtn__gjhLX {
+  opacity: 0;
+  top: 5px;
+  right: 5px !important;
+  border-radius: 0.8rem;
+  background: var(--secondary-color);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.GroupThumbnail_groupContainerMain__w6xnu:hover .GroupThumbnail_editDeleteBtn__gjhLX {
+  opacity: 1;
+  pointer-events: all;
+  /* transition: all 0.3s ease; */
+}
+
